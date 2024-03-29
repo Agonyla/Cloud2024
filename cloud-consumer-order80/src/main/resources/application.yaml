@@ -1,0 +1,11 @@
+server:
+  port: 80
+#
+## ==========applicationName + druid-mysql8 driver===================
+spring:
+  application:
+    name: cloud-consumer-order
+  # ========================时间格式===================
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
